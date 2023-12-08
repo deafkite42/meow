@@ -1,0 +1,20 @@
+name: Meow
+version: '${project.version}'
+main: com.github.deafkite42.meow.Meow
+api-version: '1.19'
+authors: [deafkite42]
+description: A simple plugin that allows players to mrowww meow meowww meow mrrrp :3
+
+permissions:
+  meow.playsound.cooldownexempt:
+    description: "Exempts player from the cooldown."
+    default: op
+
+  meow.playsound.meow:
+    description: "Grants permission to meow."
+    default: true
+
+  meow.playsound.purr:
+    description: "Grants permission to purr."
+    default: true
+
